@@ -1,3 +1,5 @@
+# For more options, see https://github.com/jbub/ghostwriter/blob/master/exampleSite/config.yml
+
 baseURL: "https://hyahiaoui.github.io/"
 languageCode: "en-us"
 title: "Personal Blog of Houssame Yahiaoui"
@@ -10,6 +12,7 @@ params:
     headline: "Houssame's Blog"
     description: "Personal Blog of Houssame Yahiaoui"
     github: "https://github.com/hyahiaoui"
+    linkedin: "https://www.linkedin.com/in/houssame-yahiaoui-ph-d-53320988/"
     email: "houssame.yahiaoui@almapay.com"
     opengraph: true
     dateFormat: "Mon, Jan 2, 2006"
