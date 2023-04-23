@@ -1,0 +1,32 @@
+baseURL: "https://hyahiaoui.github.io/"
+languageCode: "en-us"
+title: "Personal Blog of Houssame Yahiaoui"
+theme: "ghostwriter"
+
+params:
+    mainSections:
+      - "posts"
+    intro: true
+    headline: "Houssame's Blog"
+    description: "Personal Blog of Houssame Yahiaoui"
+    github: "https://github.com/hyahiaoui"
+    email: "houssame.yahiaoui@almapay.com"
+    opengraph: true
+    dateFormat: "Mon, Jan 2, 2006"
+    readingTime: true
+    readingTimeText: "Estimated reading time:"
+
+permalinks:
+    post: "/:year/:month/:day/:filename/"
+
+menu:
+  main:
+    - name: Blog
+      url: /
+      weight: 1
+    - name: Projects
+      url: /projects/
+      weight: 2
+    - name: About
+      url: /pages/about
+      weight: 3
